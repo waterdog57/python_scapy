@@ -1,1 +1,54 @@
+# C 編譯相關
+*.o
+*.a
+*.so
+*.exe
+*.out
+*.elf
+*.bin
+*.hex
+
+# 編譯產生的檔案
+*.d
+*.ko
+*.mod.c
+*.order
+*.symvers
+
+# 除錯相關
+*.dSYM/
+*.su
+core
+vgcore.*
+
+# 編輯器產生的檔案
+*~
+*.swp
+*.swo
+.*.sw?
+
+# Build 目錄
+build/
+bin/
+obj/
+out/
+
+# macOS 系統檔案
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS 資源分支
+._*
+
+# macOS 縮圖
+.Spotlight-V100
+.Trashes
+
+# Linux 備份檔案
+*~
+
+# IDE 相關
+.vscode/
+.idea/
+*.code-workspace
